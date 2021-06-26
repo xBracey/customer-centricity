@@ -3,6 +3,7 @@ module.exports = {
   transform: {
     "^.+\\.tsx?$": "babel-jest",
   },
+  testEnvironment: "jsdom",
   snapshotResolver: "<rootDir>/src/test/snapshotResolver.js",
   collectCoverageFrom: ["<rootDir>/src/components/**/*.{js,ts,tsx}"],
   moduleDirectories: ["node_modules", "src"],

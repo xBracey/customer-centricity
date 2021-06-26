@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Button Component Test props {"text":"Button"} Renders correctly 1`] = `
+<div>
+  <div
+    class="Buttonstyled__ButtonContainer-sc-5g6zbn-0"
+    role="button"
+  >
+    Button
+  </div>
+</div>
+`;
+
+exports[`Test Button Component Test props {} Renders correctly 1`] = `
+<div>
+  <div
+    class="Buttonstyled__ButtonContainer-sc-5g6zbn-0"
+  >
+    Hello World
+  </div>
+</div>
+`;

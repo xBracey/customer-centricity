@@ -23,11 +23,18 @@
   },
   "homepage": "https://github.com/xBracey/customer-centric#readme",
   "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-react-jsx": "^7.14.5",
     "@storybook/addon-actions": "^6.1.14",
     "@storybook/addon-knobs": "^6.1.14",
     "@storybook/react": "^6.0.22",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^5.1.0",
+    "@testing-library/user-event": "^12.8.3",
     "@types/lodash": "^4.14.168",
     "@types/node": "^13.13.5",
+    "@types/testing-library__jest-dom": "^5.14.0",
     "babel-loader": "^8.2.1",
     "jest": "^27.0.5",
     "jest-styled-components": "^7.0.4",
@@ -41,6 +48,7 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
+    "typeface-roboto": "^1.1.13",
     "typescript": "^3.8.3"
   }
 }
