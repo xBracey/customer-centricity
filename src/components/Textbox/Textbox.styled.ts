@@ -6,8 +6,8 @@ interface ITextboxOverlay {
 }
 
 export const TextboxContainer = styled.div`
-  min-height: 150px;
-  width: 400px;
+  min-height: 200px;
+  width: 600px;
   position: relative;
   overflow: hidden;
   background-color: ${colours.white};
