@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ColourKey Component Test props {"colour":"rgba(20, 80, 20, 1)","label":"Test Label"} Renders correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.c1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(20,80,20,1);
+}
+
+.c2 {
+  margin: 0 0 0 12px;
+  color: rgba(255,255,255,1);
+  font-size: 16px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    />
+    <p
+      class="c2"
+    >
+      Test Label
+    </p>
+  </div>
+</div>
+`;

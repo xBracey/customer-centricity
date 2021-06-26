@@ -8,5 +8,5 @@ module.exports = {
   collectCoverageFrom: ["<rootDir>/src/components/**/*.{js,ts,tsx}"],
   moduleDirectories: ["node_modules", "src"],
   setupFilesAfterEnv: ["<rootDir>/src/test/setup.ts"],
-  modulePathIgnorePatterns: ["<rootDir>/.vscode/"],
+  modulePathIgnorePatterns: ["<rootDir>/.vscode/", "<rootDir>/.next"],
 };

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Textbox Component Test props {"text":"I test you","processedText":{"text":"I test you","seller":{"regex":{},"count":1},"buyer":{"regex":{},"count":1}}} Renders correctly 1`] = `
+.c0 {
+  min-height: 150px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255,255,255,1);
+  margin: 32px;
+}
+
+.c2 {
+  position: absolute;
+  height: calc(100% - 14px);
+  width: calc(100% - 14px);
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-family: "Roboto";
+  z-index: 2;
+  color: rgba(0,0,0,1);
+  border: 2px solid rgba(0,0,0,1);
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.c1 {
+  position: absolute;
+  height: calc(100% - 14px);
+  width: calc(100% - 14px);
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  font-family: "Roboto";
+  z-index: 1;
+  border: 2px solid transparent;
+  color: transparent;
+  margin-top: -0px;
+  white-space: pre-wrap;
+}
+
+.c1 span.seller {
+  background-color: rgba(144,238,144,0.8);
+}
+
+.c1 span.buyer {
+  background-color: rgba(59,130,246,0.5);
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <pre
+      class="c1"
+    >
+      <span
+        class="seller"
+      >
+        I
+      </span>
+       test 
+      <span
+        class="buyer"
+      >
+        you
+      </span>
+    </pre>
+    <textarea
+      class="c2"
+    />
+  </div>
+</div>
+`;
