@@ -1,26 +1,27 @@
 {
-  "name": "galls-physio",
+  "name": "customer-centric",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker-compose up",
+    "start": "next build && next serve",
     "develop": "next dev -p 8000",
     "build": "next build",
     "storybook": "start-storybook -s ./public -p 9000 ",
     "storybook:build": "build-storybook -c .storybook -o .out",
-    "deploy": "docker-compose stop && git pull && yarn && yarn build && yarn start -d"
+    "test": "jest --collectCoverage",
+    "test:watch": "jest --watchAll --collectCoverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xBracey/galls-physio.git"
+    "url": "git+https://github.com/xBracey/customer-centric.git"
   },
-  "author": "",
+  "author": "Thomas Brace",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xBracey/galls-physio/issues"
+    "url": "https://github.com/xBracey/customer-centric/issues"
   },
-  "homepage": "https://github.com/xBracey/galls-physio#readme",
+  "homepage": "https://github.com/xBracey/customer-centric#readme",
   "dependencies": {
     "@storybook/addon-actions": "^6.1.14",
     "@storybook/addon-knobs": "^6.1.14",
@@ -28,6 +29,8 @@
     "@types/lodash": "^4.14.168",
     "@types/node": "^13.13.5",
     "babel-loader": "^8.2.1",
+    "jest": "^27.0.5",
+    "jest-styled-components": "^7.0.4",
     "lodash": "^4.17.21",
     "next": "^10.0.8",
     "prettier": "2.0.5",
@@ -35,6 +38,7 @@
     "react-docgen-typescript": "^1.20.5",
     "react-dom": "^16.12.0",
     "styled-components": "^5.1.0",
+    "ts-jest": "^26.4.4",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.8.3"

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist",
+    "target": "ES6",
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "lib/*": ["src/lib/*"]
+    },
+    "allowJs": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./src/types", "./node_modules/@types"]
+  },
+  "exclude": ["node_modules/**", ".vscode/.templates/*.ts"],
+  "include": ["**/*.ts", "**/*.tsx"]
+}
