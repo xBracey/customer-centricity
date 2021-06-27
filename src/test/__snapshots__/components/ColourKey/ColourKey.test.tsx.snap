@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test ColourKey Component Test props {"colour":"rgba(20, 80, 20, 1)","label":"Test Label"} Renders correctly 1`] = `
+exports[`Test ColourKey Component Test props {"colour":"rgba(59, 130, 246, 1)","label":"Test Label"} Renders correctly 1`] = `
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -17,7 +17,7 @@ exports[`Test ColourKey Component Test props {"colour":"rgba(20, 80, 20, 1)","la
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: rgba(20,80,20,1);
+  background-color: rgba(59,130,246,1);
 }
 
 .c2 {

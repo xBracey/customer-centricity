@@ -7,11 +7,12 @@ interface ITextboxOverlay {
 
 export const TextboxContainer = styled.div`
   min-height: 200px;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   position: relative;
   overflow: hidden;
   background-color: ${colours.white};
-  margin: 32px;
+  margin: 32px 0;
 `;
 
 const TextboxShared = css`

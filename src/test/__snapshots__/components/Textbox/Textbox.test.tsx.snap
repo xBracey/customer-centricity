@@ -2,8 +2,8 @@
 
 exports[`Test Textbox Component Test props {"text":"I test you","processedText":{"text":"I test you","seller":{"regex":{},"count":1},"buyer":{"regex":{},"count":1}}} Renders correctly 1`] = `
 .c0 {
-  min-height: 150px;
-  width: 400px;
+  min-height: 200px;
+  width: 600px;
   position: relative;
   overflow: hidden;
   background-color: rgba(255,255,255,1);
@@ -78,6 +78,7 @@ exports[`Test Textbox Component Test props {"text":"I test you","processedText":
     </pre>
     <textarea
       class="c2"
+      data-testid="textbox"
     />
   </div>
 </div>

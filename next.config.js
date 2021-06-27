@@ -3,6 +3,8 @@ module.exports = {
     return config;
   },
 
+  pageExtensions: ["page.tsx"],
+
   async redirects() {
     return [
       {

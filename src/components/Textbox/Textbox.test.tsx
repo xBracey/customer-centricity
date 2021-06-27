@@ -1,7 +1,7 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { Textbox } from "./";
-import { render } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { processText } from "lib/processText";
 
 const text = "I test you";
@@ -23,6 +23,18 @@ describe("Test Textbox Component", () => {
       const { container } = render(component);
 
       expect(container).toMatchSnapshot();
+    });
+
+    it("setText event is fired when text changes", () => {
+      render(component);
+
+      fireEvent.change(screen.queryByTestId("textbox"), {
+        target: { value: "I am you" },
+      });
+
+      expect(setText).toHaveBeenCalledWith("I am you");
+
+      setText.mockReset();
     });
   });
 });

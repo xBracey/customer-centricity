@@ -34,7 +34,12 @@ export const Textbox = ({ text, processedText, setText }: ITextbox) => {
         }}
         scrollX={scrollX}
       />
-      <TextboxEditable onChange={onChange} text={text} onScroll={onScroll} />
+      <TextboxEditable
+        onChange={onChange}
+        text={text}
+        onScroll={onScroll}
+        data-testid={"textbox"}
+      />
     </TextboxContainer>
   );
 };

@@ -21,7 +21,7 @@ export const PageHeader = styled.h1`
 export const PageDescription = styled.p`
   margin: 16px 0;
   text-align: center;
-  width: 400px;
+  max-width: 400px;
   color: ${colours.white};
 `;
 
@@ -30,6 +30,10 @@ export const PageLabels = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 16px;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Score = styled.p`
