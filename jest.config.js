@@ -5,7 +5,11 @@ module.exports = {
   },
   testEnvironment: "jsdom",
   snapshotResolver: "<rootDir>/src/test/snapshotResolver.js",
-  collectCoverageFrom: ["<rootDir>/src/components/**/*.{js,ts,tsx}"],
+  collectCoverageFrom: [
+    "<rootDir>/src/components/**/*.{js,ts,tsx}",
+    "<rootDir>/src/lib/**/*.{js,ts,tsx}",
+    "!<rootDir>/src/**/*.stories.{js,ts,tsx}",
+  ],
   moduleDirectories: ["node_modules", "src"],
   setupFilesAfterEnv: ["<rootDir>/src/test/setup.ts"],
   modulePathIgnorePatterns: ["<rootDir>/.vscode/", "<rootDir>/.next"],
